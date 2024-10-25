@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class TesteDeFixacao {
@@ -14,7 +16,6 @@ public class TesteDeFixacao {
         System.out.println("[4] - Estruturas de repetição");
         System.out.println("[5] - Arrays");
         System.out.println("[6] - Arrays multidimensionais");
-        System.out.println("[7] - Função basica");
         Scanner O = new Scanner(System.in);
         Scanner T = new Scanner(System.in);
         System.out.println("Digite a opção ...");
@@ -148,7 +149,14 @@ public class TesteDeFixacao {
                     }
                     break;
                 case 5:
-
+                    System.out.println("[5] - Arrays");
+                    System.out.println("------------------------------------------------------------------------------------");
+                    System.out.println("Existem algumas formas de criar um array porem eu vou mostrar a melhor forma que eu acho");
+                    System.out.println("int[] array = new int[5]");
+                    System.out.println("int[] myArray1 = {1, 0, 3, 17, 5, 6, 7, 8, 9, 10}; tambem existe essa forma já definindo o que vai ser em cada posição");
+                    System.out.println("Esta é a forma para implementar dados dentro do array");
+                    System.out.println("Ex: array[1] = 20");
+                    System.out.println("Sobre os arrays simples esse é o modelo que eu mais vou usar kkkkkk");
                     System.out.println("Agora me diga, deseja continuar aprendendo? digite sim ou não");
                     perg = T.next();
                     if (perg.equals("sim")){
@@ -158,7 +166,18 @@ public class TesteDeFixacao {
                     }
                     break;
                 case 6:
-
+                    System.out.println("[6] - Arrays multidimensionais");
+                    System.out.println("------------------------------------------------------------------------------------");
+                    System.out.println("Da mesma forma do array simples, a criação do multidimensional é bem parecido, veja");
+                    System.out.println("int[][] matrix = new int[2][2]");
+                    System.out.println("array[0][0] = 30;");
+                    System.out.println("array[0][1] = 40;");
+                    System.out.println("array[1][0] = 50;");
+                    System.out.println("array[1][1] = 60;");
+                    System.out.println("System.out.println(array[0][0]); // desta forma irá mostrar o resultado 30");
+                    System.out.println("Praticamente cada caixa de array vai dar uma posição de medida, a primeira diz quantos arrays terão");
+                    System.out.println("O segundo mostra quantas posições os arrays terão");
+                    System.out.println("A partir da terceira já conseguimos definir colunas e linhas ");
                     System.out.println("Agora me diga, deseja continuar aprendendo? digite sim ou não");
                     perg = T.next();
                     if (perg.equals("sim")){
